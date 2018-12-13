@@ -9,8 +9,8 @@
 ..\obj\diskio.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h
 ..\obj\diskio.o: D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h
 ..\obj\diskio.o: D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h
-..\obj\diskio.o: D:\workspace\Embeded\Proj\ALIENTEK MINISTM32 实验31 图片显示实验\USER\RTE\Device\STM32F103RC\stm32f10x_conf.h
-..\obj\diskio.o: D:\workspace\Embeded\Proj\ALIENTEK MINISTM32 实验31 图片显示实验\USER\RTE\RTE_Components.h
+..\obj\diskio.o: D:\workspace\Embeded\Proj\SUSTC-EmbededSytem-FinalProj\USER\RTE\Device\STM32F103RC\stm32f10x_conf.h
+..\obj\diskio.o: D:\workspace\Embeded\Proj\SUSTC-EmbededSytem-FinalProj\USER\RTE\RTE_Components.h
 ..\obj\diskio.o: D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h
 ..\obj\diskio.o: D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h
 ..\obj\diskio.o: D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h
