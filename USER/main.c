@@ -90,7 +90,6 @@ void camera_refresh(void)
 }	  
 
 void camera_on(){
-	u8 i;
  	POINT_COLOR=RED;//ÉèÖÃ×ÖÌåÎªºìÉ« 
 	LCD_ShowString(60,50,200,200,16,"Mini STM32");	
 	LCD_ShowString(60,70,200,200,16,"OV7670 TEST");	
@@ -216,12 +215,15 @@ void camera_on(){
 		t=0;
 		while(1) 
 		{
+			LCD_ShowString(20, 20, 200, 16, 16, "DEL");
+			
 			key=KEY_Scan(0);//É¨Ãè°´¼ü
 			tp_dev.scan(0);		// Scan Touchscreen
 			if(t>250)key=1;			//Ä£ÄâÒ»´Î°´ÏÂKEY0    
 			if((t%20)==0)LED0=!LED0;//LED0ÉÁË¸,ÌáÊ¾³ÌÐòÕýÔÚÔËÐÐ.
 			if(key==KEY1_PRES)		//ÉÏÒ»ÕÅ
 			{
+				
 				if(curindex)curindex--;
 				else curindex=totpicnum-1;
 				break;
@@ -236,12 +238,11 @@ void camera_on(){
 				LED1=!pause; 	//ÔÝÍ£µÄÊ±ºòLED1ÁÁ.  
 			}
 			if(pause==0)t++;
-			if(tp_dev.x[0]<20&&tp_dev.y[0]<20) // Touch to remove current file
+			if(tp_dev.x[0]<50&&tp_dev.y[0]<40) // Touch to remove current file
 			{
 				f_unlink((char *)pname);
-				myfree(picfileinfo.lfname);	//ÊÍ·ÅÄÚ´æ			    
-				myfree(pname);				//ÊÍ·ÅÄÚ´æ			    
-				myfree(picindextbl);
+				delay_ms(100);
+				break;
 			}
 			delay_ms(10); 
 
