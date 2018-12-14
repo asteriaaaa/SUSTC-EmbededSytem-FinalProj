@@ -365,7 +365,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_HD,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\lib\headers</IncludePath>
+              <IncludePath>..\lib\headers;..\USER</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -412,6 +412,11 @@
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>camera.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\camera.c</FilePath>
             </File>
           </Files>
         </Group>

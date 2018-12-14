@@ -1,5 +1,6 @@
 --cpu Cortex-M3
 "..\obj\main.o"
+"..\obj\camera.o"
 "..\obj\24cxx.o"
 "..\obj\bmp.o"
 "..\obj\ctiic.o"
