@@ -1,5 +1,5 @@
 Dependencies for Project 'PICTURE', Target 'Target 1': (DO NOT MODIFY !)
-F (.\main.c)(0x5C13D663)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\lib\headers -I..\USER-I D:\workspace\Embeded\Proj\SUSTC-EmbededSytem-FinalProj\USER\RTE-I D:\workspace\Embeded\Proj\SUSTC-EmbededSytem-FinalProj\USER\RTE\Device\STM32F103RC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+F (.\main.c)(0x5C17973E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\lib\headers -I..\USER-I D:\workspace\Embeded\Proj\SUSTC-EmbededSytem-FinalProj\USER\RTE-I D:\workspace\Embeded\Proj\SUSTC-EmbededSytem-FinalProj\USER\RTE\Device\STM32F103RC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
 I (..\lib\headers\led.h)(0x5C10A016)
 I (..\lib\headers\sys.h)(0x5C10A016)
 I (..\USER\stm32f10x.h)(0x4D783CB4)
@@ -1122,11 +1122,6 @@ I (..\lib\headers\delay.h)(0x5C10A016)
 I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
 I (..\lib\headers\24cxx.h)(0x5C10A016)
 I (..\lib\headers\myiic.h)(0x5C10A016)
-F (..\lib\unicode.c)(0x5C10A016)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\lib\headers -I..\USER-I D:\workspace\Embeded\Proj\SUSTC-EmbededSytem-FinalProj\USER\RTE-I D:\workspace\Embeded\Proj\SUSTC-EmbededSytem-FinalProj\USER\RTE\Device\STM32F103RC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\unicode.o --omf_browse ..\obj\unicode.crf --depend ..\obj\unicode.d)
-I (..\lib\headers\ff.h)(0x5C10A016)
-I (..\lib\headers\integer.h)(0x5C10A016)
-I (..\lib\headers\ffconf.h)(0x5C10A016)
-I (..\lib\cc936.c)(0x5C10A016)
 F (..\lib\usart.c)(0x5C10A016)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\lib\headers -I..\USER-I D:\workspace\Embeded\Proj\SUSTC-EmbededSytem-FinalProj\USER\RTE-I D:\workspace\Embeded\Proj\SUSTC-EmbededSytem-FinalProj\USER\RTE\Device\STM32F103RC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
 I (..\lib\headers\sys.h)(0x5C10A016)
 I (..\USER\stm32f10x.h)(0x4D783CB4)
@@ -1271,6 +1266,11 @@ I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm3
 I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x52F9EB20)
 I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
 I (..\lib\headers\usmart.h)(0x5C10A016)
+F (..\lib\unicode.c)(0x5C10A016)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\lib\headers -I..\USER-I D:\workspace\Embeded\Proj\SUSTC-EmbededSytem-FinalProj\USER\RTE-I D:\workspace\Embeded\Proj\SUSTC-EmbededSytem-FinalProj\USER\RTE\Device\STM32F103RC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\unicode.o --omf_browse ..\obj\unicode.crf --depend ..\obj\unicode.d)
+I (..\lib\headers\ff.h)(0x5C10A016)
+I (..\lib\headers\integer.h)(0x5C10A016)
+I (..\lib\headers\ffconf.h)(0x5C10A016)
+I (..\lib\cc936.c)(0x5C10A016)
 F (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\src\misc.c)(0x52F9EB20)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\lib\headers -I..\USER-I D:\workspace\Embeded\Proj\SUSTC-EmbededSytem-FinalProj\USER\RTE-I D:\workspace\Embeded\Proj\SUSTC-EmbededSytem-FinalProj\USER\RTE\Device\STM32F103RC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\misc.o --omf_browse ..\obj\misc.crf --depend ..\obj\misc.d)
 I (D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
 I (..\USER\stm32f10x.h)(0x4D783CB4)

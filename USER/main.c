@@ -47,14 +47,6 @@ u16 pic_get_tnum(u8 *path)
 	return rval;
 }
 
-void camera_on(){
- 				 	 
- 
-}
-
-
-
-
 
  int main(void)
  { 
@@ -210,7 +202,7 @@ READLIST: // Used for solving problems after deleting a pic.
 		while(1) 
 		{
 			LCD_ShowString(20, 20, 200, 16, 16, "BACK");
-			
+			LCD_ShowString(20,lcddev.height - 40, 200,16, 16, "DEL");
 
 			printf("%d",pause);
 			tp_dev.scan(0);		// Scan Touchscreen
@@ -232,8 +224,10 @@ READLIST: // Used for solving problems after deleting a pic.
                {
                   f_unlink((char *)pname);
                   LCD_ShowString(60, 150, 200, 16, 16, "Deleted!");
-                  delay_ms(500);
-                  break;
+								 tmpindex = curindex;
+								 delay_ms(500);
+								 goto READLIST;
+                  
                } else if (tp_dev.y[0] < 120) //触摸上部分的1/3，上一张
                {
                   if (curindex)
